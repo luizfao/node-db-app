@@ -8,12 +8,14 @@ concurrency:
   group: ${{ github.ref }}
   cancel-in-progress: true
 env:
-
-  IMAGE: node-db-app # Unknown cloud provider: 
-
+  
+  IMAGE: node-db-app # Unknown cloud provider: # space fixed by luiz/senthil
+  
   HUMCTL_VERSION: '*'
   APP_NAME: node-db-app
 
+  # added by luiz/senthil
+  CONTAINER_REGISTRY: ${{ vars.CONTAINER_REGISTRY }}
 
 jobs:
   deploy:
