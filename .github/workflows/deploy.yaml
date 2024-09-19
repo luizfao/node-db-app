@@ -9,7 +9,7 @@ concurrency:
   cancel-in-progress: true
 env:
 
-  IMAGE: node-db-app# Unknown cloud provider: 
+  IMAGE: node-db-app # Unknown cloud provider: 
 
   HUMCTL_VERSION: '*'
   APP_NAME: node-db-app
