@@ -5,6 +5,7 @@ metadata:
   annotations:
     "humanitec.com/orgId": "htc-demo-41"
     "humanitec.com/appId": "node-db-app"
+    "backstage.io/kubernetes-id": "node-db-app"
 spec:
   type: service
   owner: user:guest
